@@ -14,15 +14,7 @@ java.util.Date date = new java.util.Date();
 <div>Current date is <%=date%> </div> --%>
 
 <body>
-HELLO WORLD !!!
-
-<form action="/helloworld.do" method ="post">
-
-Enter message <input type = "text" name="message"/> <input type="submit" value="Send"/>
-
-</form>
-
-${message}
+HELLO WORLD ${message}
 
 </body>
 </html>
