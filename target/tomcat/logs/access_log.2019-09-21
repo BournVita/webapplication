@@ -2,3 +2,10 @@
 0:0:0:0:0:0:0:1 - - [21/Sep/2019:09:23:23 -0400] "GET /favicon.ico HTTP/1.1" 404 973 http-bio-8080-exec-3 3
 0:0:0:0:0:0:0:1 - - [21/Sep/2019:09:32:03 -0400] "GET / HTTP/1.1" 200 95 http-bio-8080-exec-5 1
 0:0:0:0:0:0:0:1 - - [21/Sep/2019:09:32:06 -0400] "GET / HTTP/1.1" 200 95 http-bio-8080-exec-7 1
+0:0:0:0:0:0:0:1 - - [21/Sep/2019:09:53:30 -0400] "GET / HTTP/1.1" 404 951 http-bio-8080-exec-9 3
+0:0:0:0:0:0:0:1 - - [21/Sep/2019:10:04:04 -0400] "GET /mainpage.do HTTP/1.1" 200 95 http-bio-8080-exec-3 2
+0:0:0:0:0:0:0:1 - - [21/Sep/2019:10:04:46 -0400] "GET /mainpage.do HTTP/1.1" 200 95 http-bio-8080-exec-3 0
+0:0:0:0:0:0:0:1 - - [21/Sep/2019:10:05:53 -0400] "GET /mainpage.do HTTP/1.1" 200 95 http-bio-8080-exec-8 0
+0:0:0:0:0:0:0:1 - - [21/Sep/2019:10:46:56 -0400] "GET /helloworld.do HTTP/1.1" 200 142 http-bio-8080-exec-1 958
+0:0:0:0:0:0:0:1 - - [21/Sep/2019:10:48:13 -0400] "GET /helloworld.com HTTP/1.1" 404 979 http-bio-8080-exec-4 6
+0:0:0:0:0:0:0:1 - - [21/Sep/2019:10:48:57 -0400] "GET /helloworld.do HTTP/1.1" 200 142 http-bio-8080-exec-6 11
