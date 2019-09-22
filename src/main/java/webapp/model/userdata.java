@@ -5,13 +5,7 @@ public class userdata {
 	private String usr_comment;
 	private String create_usr;
 	private String create_date;
-	@Override
-	public String toString() {
-		return "userdata [usr_comment=" + usr_comment + ", create_usr=" + create_usr + ", create_date=" + create_date
-				+ ", getUsr_comment()=" + getUsr_comment() + ", getCreate_usr()=" + getCreate_usr()
-				+ ", getCreate_date()=" + getCreate_date() + ", getClass()=" + getClass() + ", hashCode()=" + hashCode()
-				+ ", toString()=" + super.toString() + "]";
-	}
+	
 	public String getUsr_comment() {
 		return usr_comment;
 	}
@@ -29,6 +23,14 @@ public class userdata {
 	}
 	public void setCreate_date(String create_date) {
 		this.create_date = create_date;
+	}
+	
+	@Override
+	public String toString() {
+		return "userdata [usr_comment=" + usr_comment + ", create_usr=" + create_usr + ", create_date=" + create_date
+				+ ", getUsr_comment()=" + getUsr_comment() + ", getCreate_usr()=" + getCreate_usr()
+				+ ", getCreate_date()=" + getCreate_date() + ", getClass()=" + getClass() + ", hashCode()=" + hashCode()
+				+ ", toString()=" + super.toString() + "]";
 	}
 
 }
