@@ -1,6 +1,7 @@
 package webapp;
 
 import java.sql.*;
+import java.time.LocalDateTime;
 import java.util.Properties;
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -22,8 +23,14 @@ public class MainServlet extends HttpServlet {
 
 	protected void doPost(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
+		String create_usr = System.getProperty("user.name");
+		LocalDateTime ldt = LocalDateTime.now();
+		
 		String usrmessage = request.getParameter("message");
 		request.setAttribute("message", usrmessage);
+		request.setAttribute("user", create_usr);
+		request.setAttribute("timestamp", ldt);
+		
 		request.getRequestDispatcher("/WEB-INF/pages/front.jsp").forward(request, response);
 
 	}

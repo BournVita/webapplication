@@ -19,22 +19,24 @@ HELLO WORLD !!!
 
 <form action="/helloworld.do" method ="post">
 
-Enter message <input type = "text" name="message"/> <input type="submit" value="Send"/>
+Message <input type = "text" name="message"/>
+City <input type = "text" name="city"/>
+Latitude <input type = "text" name="city_latitude"/>
+Longitude <input type = "text" name="city_longitude"/>
+Temperature <input type = "text" name="temperature"/>
+
+ <input type="submit" value="Send"/>
 
 </form>
 
+ <footer>
 ${message}
 
-${message}
+${user}
 
-<% 
+${timestamp}
 
-App a1 = (App)session.getAttribute("userdata");
-out.println(a1);
-
-%>
-
-
+</footer>
 
 </body>
 </html>
