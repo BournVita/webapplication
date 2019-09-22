@@ -25,6 +25,8 @@ Enter message <input type = "text" name="message"/> <input type="submit" value="
 
 ${message}
 
+${message}
+
 <% 
 
 App a1 = (App)session.getAttribute("userdata");
