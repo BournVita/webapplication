@@ -1,3 +1,4 @@
+<%@page import="webapp.App"%>
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html>
@@ -23,6 +24,15 @@ Enter message <input type = "text" name="message"/> <input type="submit" value="
 </form>
 
 ${message}
+
+<% 
+
+App a1 = (App)session.getAttribute("userdata");
+out.println(a1);
+
+%>
+
+
 
 </body>
 </html>
