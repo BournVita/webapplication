@@ -27,10 +27,12 @@ public class userdata {
 	
 	@Override
 	public String toString() {
-		return "userdata [usr_comment=" + usr_comment + ", create_usr=" + create_usr + ", create_date=" + create_date
-				+ ", getUsr_comment()=" + getUsr_comment() + ", getCreate_usr()=" + getCreate_usr()
-				+ ", getCreate_date()=" + getCreate_date() + ", getClass()=" + getClass() + ", hashCode()=" + hashCode()
-				+ ", toString()=" + super.toString() + "]";
+		
+		return "Comment: " + getUsr_comment();
+//		return "userdata [usr_comment=" + usr_comment + ", create_usr=" + create_usr + ", create_date=" + create_date
+//				+ ", getUsr_comment()=" + getUsr_comment() + ", getCreate_usr()=" + getCreate_usr()
+//				+ ", getCreate_date()=" + getCreate_date() + ", getClass()=" + getClass() + ", hashCode()=" + hashCode()
+//				+ ", toString()=" + super.toString() + "]";
 	}
 
 }

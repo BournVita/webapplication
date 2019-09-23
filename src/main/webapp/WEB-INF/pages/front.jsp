@@ -17,7 +17,7 @@ java.util.Date date = new java.util.Date();
 <body>
 HELLO WORLD !!!
 
-<form action="/helloworld.do" method ="post">
+<form action="helloworld.do" method ="post">
 
 Message <input type = "text" name="message"/>
 City <input type = "text" name="city"/>
